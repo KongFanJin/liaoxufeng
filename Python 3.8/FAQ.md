@@ -1,10 +1,10 @@
 # FAQ
 
-### 常见问题
+## 常见问题
 
 本节列出常见的一些问题。
 
-### 如何获取当前路径
+## 如何获取当前路径
 
 当前路径可以用`'.'`表示，再用`os.path.abspath()`将其转换为绝对路径：
 
@@ -24,7 +24,7 @@ $ python3 test.py
 /Users/michael/workspace/testing
 ```
 
-### 如何获取当前模块的文件名
+## 如何获取当前模块的文件名
 
 可以通过特殊变量`__file__`获取：
 
@@ -42,7 +42,7 @@ $ python3 test.py
 test.py
 ```
 
-### 如何获取命令行参数
+## 如何获取命令行参数
 
 可以通过`sys`模块的`argv`获取：
 
@@ -64,7 +64,7 @@ $ python3 test.py -a -s "Hello world"
 
 `argv`的第一个元素永远是命令行执行的`.py`文件名。
 
-### 如何获取当前Python命令的可执行文件路径
+## 如何获取当前Python命令的可执行文件路径
 
 `sys`模块的`executable`变量就是Python命令可执行文件的路径：
 
