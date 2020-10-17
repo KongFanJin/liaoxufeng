@@ -1,4 +1,4 @@
-# 00 JavaScript简介
+# JavaScript简介
 
 ## JavaScript历史
 
